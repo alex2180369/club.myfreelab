@@ -89,6 +89,7 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
 .hero__facts li { display: flex; flex-direction: column; }
 .hero__facts strong { font: 600 clamp(28px, 3vw, 40px)/1.1 var(--serif); color: var(--gold-soft); }
 .hero__facts span { font-size: 14px; color: var(--muted); }
+.hero__facts strong, .stat strong, .plan__price { font-variant-numeric: lining-nums; font-feature-settings: "lnum" 1; }
 .risk { max-width: 70ch; font-size: 13px; color: #837b91; margin: 0; }
 
 /* Секции */
