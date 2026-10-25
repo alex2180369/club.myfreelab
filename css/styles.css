@@ -81,7 +81,8 @@ ul, ol { margin: 0; padding: 0; list-style: none; }
   background: linear-gradient(90deg, transparent, var(--gold), transparent); opacity: .6;
 }
 .hero__in { position: relative; }
-.hero h1 { font-size: clamp(44px, 7.4vw, 104px); max-width: 15ch; margin-bottom: 28px; }
+.hero h1 { font-size: clamp(40px, 6vw, 86px); line-height: 1.05; max-width: 20ch; margin-bottom: 28px; }
+.hero h1 em { display: block; margin-top: .08em; }
 .hero__lead { max-width: 60ch; font-size: clamp(17px, 1.6vw, 20px); color: var(--muted); margin-bottom: 36px; }
 .hero__cta { display: flex; flex-wrap: wrap; gap: 14px; margin-bottom: 56px; }
 .hero__facts { display: flex; flex-wrap: wrap; gap: 20px 56px; padding-top: 28px; border-top: 1px solid var(--line); margin-bottom: 28px; }
